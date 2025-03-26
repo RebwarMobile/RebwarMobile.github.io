@@ -8,6 +8,86 @@
       <link href="owl.carousel.css" rel="stylesheet" type="text/css">
       <link href="owl.theme.default.css" rel="stylesheet" type="text/css">
       <link href="style.css" rel="stylesheet" type="text/css">
+      <style>
+         /* تنظیمات عمومی برای همه دستگاه‌ها */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* استایل منو برای موبایل */
+@media screen and (max-width: 768px) {
+    .main-menu ul {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        background: #333;
+    }
+
+    .main-menu ul li {
+        width: 100%;
+        text-align: center;
+        border-bottom: 1px solid #555;
+    }
+
+    .main-menu ul li a {
+        display: block;
+        padding: 10px;
+        color: white;
+        text-decoration: none;
+    }
+
+    .main-menu ul li:hover {
+        background: #444;
+    }
+}
+
+/* تغییر اندازه فونت در صفحه‌های کوچک */
+@media screen and (max-width: 576px) {
+    h1 {
+        font-size: 20px;
+    }
+
+    h4 {
+        font-size: 16px;
+    }
+
+    .vizheh-content h3 {
+        font-size: 18px;
+    }
+
+    .vizheh-content ul li {
+        font-size: 14px;
+    }
+}
+
+/* تنظیمات برای صفحه‌های خیلی کوچک (مثلاً موبایل‌های کوچک) */
+@media screen and (max-width: 400px) {
+    .container {
+        padding: 5px;
+    }
+
+    .col-md-6, .col-md-3, .col-md-9 {
+        width: 100%;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+
+    .vizheh {
+        text-align: center;
+    }
+
+    .vizheh-content {
+        padding: 10px;
+    }
+}
+
+      </style>
    </head>
    <body>
       <div class="social">
